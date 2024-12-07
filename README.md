@@ -5,7 +5,7 @@
 
 ---
 
-## // **Stack Virtual Machine from scratch** 🛠️ 
+##**Stack Virtual Machine from scratch** 🛠️ 
 
 **Why build it?** 👉 Building this simple VM will help me understand how VMs operate on a low level, allowing me to learn more about registers, memory management, and instruction sets adding to the fundamentals built from my university module on Computer Systems & X86 Assembly. 
 
@@ -26,19 +26,21 @@
 
 ---
 
-## // **Setting Up a Full VM on Windows 11** ⚙️
+##**Setting Up a Full VM on Windows 11** ⚙️
 
-### Prerequisites  
-Before you begin, ensure you have the following:  
-- **Windows 11** installed.  
-- A copy of a virtualization tool (e.g., VirtualBox or VMware Workstation Player).  
-- ISO file for the operating system you want to install in the VM.  
-
----
-
-### Steps to Set Up a Virtual Machine  (in progress)
-
-1. **step 1**  
+1. **Download 64-bit Windows 11 ISO** https://www.microsoft.com/en-us/software-download/windows11
+   <div align="center">
+     <img src="📸 Set-up Process Screenshots/Download.png" alt="screenshot" style="width: 10000px; margin-bottom: -10px;">
+   </div>
+   
+2. **Enable the HyperVisor Software of Choice**
+   I will be using Hyper-V. To enable it on your Windows device type this into PowerShell:
+   
+   ```
+   Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+   ```
+   
+3. in progress
 
 ---
 
