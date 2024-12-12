@@ -138,3 +138,42 @@ strings Lexer::lex(std::strings s) {
 
     return strlst; // Return the list of tokens
 }
+
+//This function allows us to define what a space is
+bool Lexer::my_isspace(char c) {
+	switch(c) {
+		case '\n':
+		case '\r':
+		case '\t':
+		case '\v':
+		case ' ':
+		case '\f':
+			return true;
+		default:
+			return false;
+	}
+}
+bool Lexer::isgroup(char c) {
+	beg_char = c;
+	switch(c) {
+	case '"':
+		end_char = '"';
+		return true;
+	case '(':
+		end_char = ')';
+		return true;
+	case ')':
+		return true;
+	default:
+		return false;
+	}
+}
+bool Lexer::isspecial(char c) {
+	switch(c) {
+		case '[':
+		case ']':
+			return true;
+		default:
+			return false;
+	}
+}
