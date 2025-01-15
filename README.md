@@ -7,7 +7,7 @@
 ---
 
 
-## **Stack Virtual Machine from scratch** 🛠️ 
+## **Stack Virtual Machine from scratch** 🛠️  ---
 
 **Why build it?** 👉 Building this simple VM will help me understand how VMs operate on a low level, allowing me to learn more about registers, memory management, and instruction sets adding to the fundamentals built from my university module on Computer Systems & X86 Assembly. 
 
@@ -27,11 +27,12 @@
 ---
 
 
-## **Setting Up a Full VM on Windows 11** ⚙️ 
+## **Setting Up a Full VM on Windows 11** ⚙️ ---
 
 This guide provides step-by-step instructions for setting up a virtual machine on Windows 11 using different methods. Choose the one that suits your needs.
 
-‼️ *Keep in mind that runing viruses on VMs like Windows Sandbox is still risky, since there are cleverly written malwares that are smart enough to detect a sandboxed environment and behave innocuously (i.e., exploits might be hidden or time delayed). Or the exploit could be timed delayed. I). Running something in a sandbox (and observing no negative side effects) does not guarantee it is safe to run again on the host.* 
+‼️ *Keep in mind that runing viruses on VMs like Windows Sandbox is still risky, since there are cleverly written malwares that are smart enough to detect a sandboxed environment and behave innocuously (i.e., exploits might be hidden or time delayed). Or the exploit could be timed delayed. I). Running something in a sandbox (and observing no negative side effects) does not guarantee it is safe to run again on the host.*
+
 ---
 
 ## **Method 1: Using Hyper-V (Built-in on Windows 11 Pro, Enterprise, and Education)**
@@ -52,7 +53,6 @@ This guide provides step-by-step instructions for setting up a virtual machine o
    - Check the box for **Hyper-V** in the **Windows Features** window.
    - Click **OK** and restart your PC.
 
----
 
 ### **Step 2: Create a Virtual Machine in Hyper-V**
 1. Open **Hyper-V Manager**:
@@ -81,7 +81,6 @@ This guide provides step-by-step instructions for setting up a virtual machine o
 2. Install VirtualBox, following the prompts.
 3. Install the **VirtualBox Extension Pack** for additional features.
 
----
 
 ### **Step 2: Create a Virtual Machine**
 1. Launch VirtualBox.
@@ -90,7 +89,6 @@ This guide provides step-by-step instructions for setting up a virtual machine o
    - Allocate memory size.
    - Create a virtual hard disk (choose VDI format, dynamic or fixed size).
 
----
 
 ### **Step 3: Configure the Virtual Machine**
 1. Right-click the VM, select **Settings**, and adjust:
@@ -98,7 +96,6 @@ This guide provides step-by-step instructions for setting up a virtual machine o
    - **Storage**: Attach the ISO file under "Controller: IDE."
    - **Network**: Use NAT or Bridged adapter.
 
----
 
 ### **Step 4: Start the Virtual Machine**
 1. Select the VM and click **Start**.
@@ -112,7 +109,6 @@ This guide provides step-by-step instructions for setting up a virtual machine o
 1. Visit the [VMware website](https://www.vmware.com/products/workstation-player.html) and download the free version.
 2. Install VMware Workstation Player.
 
----
 
 ### **Step 2: Create a New Virtual Machine**
 1. Launch VMware Player and click **Create a New Virtual Machine**.
@@ -129,7 +125,6 @@ This guide provides step-by-step instructions for setting up a virtual machine o
 2. Check the box for **Windows Sandbox** in the **Windows Features** window.
 3. Click **OK** and restart your PC.
 
----
 
 ### **Step 2: Launch Windows Sandbox**
 1. Press `Windows`, search for "Windows Sandbox," and open it.
