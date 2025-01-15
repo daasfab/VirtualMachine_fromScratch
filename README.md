@@ -31,7 +31,7 @@
 
 This guide provides step-by-step instructions for setting up a virtual machine on Windows 11 using different methods. Choose the one that suits your needs.
 
-‼️ *Keep in mind that runing viruses on VMs like Windows Sandbox is still risky, since there are cleverly written malwares that are smart enough to detect a sandboxed environment and behave innocuously (i.e., exploits might be hidden or time delayed). Or the exploit could be timed delayed. I). Running something in a sandbox (and observing no negative side effects) does not guarantee it is safe to run again on the host.*
+‼️ *Keep in mind that running viruses on VMs like Windows Sandbox is still risky, since there are cleverly written malware that are smart enough to detect a sandboxed environment and behave innocuously (i.e., exploits might be hidden or time delayed). Running something in a sandbox (and observing no negative side effects) does not guarantee it is safe to run again on the host.*
 
 ---
 
